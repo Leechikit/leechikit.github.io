@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    margin: 2%;
+}
+.container{
+    width: 48%;    
+}
+.map{
+    position: fixed;
+    right: 2%;
+    top:50%;
+    transform: translateY(-50%);
+    width: 48%;
+    img{
+        width: 100%;
+    }
+    .signal{
+        position: absolute;
+        left:2%;
+        bottom:0;
+        width: 2%;
+        height: 2%;
+        border: 1px solid red;
+        border-radius: 100%;
+        animation: shine .8s ease-out infinite;
+    }
+}
+.section{
+    margin: 0 auto;
+    h3{
+        border-bottom: 4px solid #333;
+        a{
+            font-size: 24px;
+            color: #333;
+        }
+    }
+}
+@keyframes shine{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+}
+.view-list{
+    margin-top: 20px;
+    .view{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 156px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        .message{
+            margin-right: 10px;
+            .name{
+                margin-bottom: 10px;
+                a{
+                    font-size: 18px;
+                    color: #ff9d00;
+                }
+            }
+        }
+        .pic{
+            flex-shrink: 0;
+            width: 220px;
+            border-radius: 5px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                vertical-align: top;            
+            }
+        }
+    }
+}
