@@ -95,5 +95,5 @@ const code = (() => {
         init
     }
 })();
-
+ 
 export default code;
