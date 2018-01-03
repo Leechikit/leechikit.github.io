@@ -7,7 +7,7 @@
 `CSS3`、`Sass`、`Responsive web design`
 
 ### JavaScript
-`ES6`、`Module`、`Promise`、`Async/Await`、`Vue`、`MVVM`、`jQuery`、`Mocha`
+`ES6`、`Module`、`Promise`、`Async/Await`、`Vue`、`MVVM`、`jQuery`、`Mocha`、`Nodejs`
 
 ### Tool
-`Webpack`
+`Webpack`、`Gulp`、`Babel`、`Postcss`、`Git`、`SVN`、`SourceTree`、`Chrome develop tool`、`Charles`
