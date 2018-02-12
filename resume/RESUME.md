@@ -27,6 +27,11 @@ Fung 是一个能从远程仓库拉取模板并快速构建项目的脚手架，
 
 ### HTML5打碟器
 
+通过拖动音频选择播放，可控制音乐的播放停止，音量大小，播放速度，通过转动唱片可模拟摩擦声并改变唱片进度。
+
+* 通过 HTML5音频API 处理音频源，变化音量大小、声调和播放速度。
+* 通过 HTML5拖放API 拖动音频源，实现拖动唱片选择播放的动画。
+
 ### 专题模板
 
 ### 后台监控系统 Friday
@@ -42,3 +47,7 @@ Fung 是一个能从远程仓库拉取模板并快速构建项目的脚手架，
 * 使用 Promise 和 Async/Await 控制多种不同类型的抽奖动画。
 
 ### 技术博客
+
+[segmentfault](https://segmentfault.com/u/leechikit/articles)
+
+获得 SegmentFault 2017年第三季度 Top Writer。
