@@ -29,8 +29,8 @@ $base: #307fa0;
 .container{
     width: 1240px;
     height: 1754px;
-    padding: 10px 50px;
-    font-family: "DINCond" -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    padding: 20px 50px;
+    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
     box-sizing: border-box;
     background-color: #fcfcfc;
     color: #333;
@@ -61,7 +61,6 @@ $base: #307fa0;
         font-size: 24px;
         line-height: 40px;
         text-align: right;
-        font-family: "DINCond";
         .iconfont{
             margin-left: 20px;
         }
@@ -72,9 +71,10 @@ $base: #307fa0;
     overflow: hidden;
     &-header{
         align-items: center;
-        font-size: 40px;
+        font-size: 30px;
+        font-family: "DINCond";
         color: #333;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         .iconfont{
             margin-right: 20px;
         }
@@ -87,8 +87,8 @@ $base: #307fa0;
         .g-left{
             text-align: right;
             .mark{
-                font-size: 28px;
-                margin-bottom: 10px;
+                font-size: 24px;
+                margin-bottom: 5px;
                 color: $base;
             }
             .submark{
@@ -98,12 +98,12 @@ $base: #307fa0;
         }
         .g-right{
             .mark{
-                font-size: 28px;
-                margin-bottom: 10px;
+                font-size: 24px;
+                margin-bottom: 20px;
                 color: #333;
             }
             .submark{
-                font-size: 20px;
+                font-size: 18px;
                 color: #333;
                 ul{
                     margin-left: 30px;
