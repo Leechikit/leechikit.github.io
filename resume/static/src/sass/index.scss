@@ -34,7 +34,7 @@ $base: #307fa0;
 }
 .container{
     width: 1240px;
-    height: 1754px;
+    // height: 1754px;
     padding: 20px 50px;
     font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
     box-sizing: border-box;
@@ -88,9 +88,10 @@ $base: #307fa0;
     &-header{
         align-items: center;
         font-size: 30px;
-        font-family: "DINCond";
+        // font-family: "DINCond";
+        font-weight: bold;
         color: #333;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         .iconfont{
             margin-right: 20px;
         }
@@ -114,18 +115,20 @@ $base: #307fa0;
         }
         .g-right{
             .mark:not(:empty){
-                font-size: 24px;
-                margin-bottom: 20px;
+                font-size: 20px;
+                line-height: 30px;
+                margin-bottom: 12px;
                 color: #333;
             }
             .submark{
-                font-size: 18px;
+                font-size: 20px;
                 color: #333;
                 ul{
                     margin-left: 30px;
                 }
                 li{
                     list-style: disc;
+                    line-height: 30px;
                 }
             }
         }
