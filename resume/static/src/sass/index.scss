@@ -64,13 +64,14 @@ $base: #307fa0;
             font-size: 80px;
             line-height: 90px;
             color: $base;
+            margin-bottom: 10px;
         }
         &-submark{
             font-size: 24px;
             line-height: 30px;
             color: #ccc;
-            letter-spacing: 16px;
-            text-indent: 10px;
+            // letter-spacing: 16px;
+            // text-indent: 10px;
         }
     }
     &-message{
